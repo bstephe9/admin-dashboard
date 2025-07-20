@@ -8,3 +8,33 @@ html {
   box-sizing: inherit;
 }
 
+body {
+  margin: 0;
+  height: 100vh;
+  display: flex;
+  font-family: Roboto, sans-serif;
+}
+
+.sidebar {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  background-color: #1992d4;
+  color: white;
+  padding: 12px;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+}
+
+.header {
+  flex: 0 0 30%;
+}
+
+.dashboard {
+  background-color: #e2e8f0;
+  flex: 1;
+}
