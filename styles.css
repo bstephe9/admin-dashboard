@@ -24,6 +24,25 @@ body {
   padding: 12px;
 }
 
+.sidebar svg {
+  fill: white;
+}
+
+.logo-section {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+}
+
+.logo-section svg {
+  width: 35px;
+}
+
+.logo-header {
+  font-size: 1.2rem;
+  font-weight: 900;
+}
+
 main {
   display: flex;
   flex-direction: column;
