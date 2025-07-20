@@ -15,23 +15,30 @@ body {
   font-family: Roboto, sans-serif;
 }
 
+a {
+  display: inline;
+  text-decoration: none;
+  color: white;
+}
+
 .sidebar {
   display: flex;
   flex-direction: column;
-  gap: 30px;
+  gap: 50px;
   background-color: #1992d4;
   color: white;
   padding: 12px;
+  padding-right: 72px;
 }
 
 .sidebar svg {
   fill: white;
 }
 
-.logo-section {
+.logo-section a {
   display: flex;
   align-items: center;
-  gap: 4px;
+  gap: 12px;
 }
 
 .logo-section svg {
@@ -41,6 +48,28 @@ body {
 .logo-header {
   font-size: 1.2rem;
   font-weight: 900;
+}
+
+nav {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  padding-left: 6px;
+}
+
+.sidebar-item {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+
+.sidebar-item svg {
+  width: 24px;
+}
+
+.sidebar-item div {
+  font-size: 1.1rem;
+  font-weight: bold;
 }
 
 main {
